@@ -11,6 +11,7 @@ import inquirer from "inquirer"
 // console.log(wordArrLength);
 // console.log(wordStrLength);
 
+
 const answer = await inquirer.prompt([{
     message: "Enter sentence to count word and characters",
     type: "input",
